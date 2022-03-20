@@ -13,7 +13,8 @@ module.exports = {
       .setDescription(`***Here are all the commands available in this bot!!*** 
       -> ${prefix}backup-create => Creates backup of the server..
       -> ${prefix}backup-info <id> => Displays the info on the provided id.. 
-      -> ${prefix}backup-load <id> => Loads backup of the given server..`)
+      -> ${prefix}backup-load <id> => Loads backup of the given server..
+      -> ${prefix}help => Loads the help command`)
       .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
       .setFooter('Help Command')
       .setColor('RANDOM')
